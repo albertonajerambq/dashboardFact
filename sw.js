@@ -9,7 +9,6 @@ const APP_SHELL = [
     // '/',
     'index.html',
     'assets/img/apple-touch-icon.png',
-    'css/style.css',
     'assets/vendor/bootstrap/css/bootstrap.min.css',
     'assets/vendor/bootstrap-icons/bootstrap-icons.css',
     'assets/vendor/boxicons/css/boxicons.min.css',
@@ -18,8 +17,7 @@ const APP_SHELL = [
     'assets/vendor/remixicon/remixicon.css',
     'assets/css/style.css',
     'assets/js/main.js',
-    
-    'js/sw-utils.js'
+    'assets/js/sw-utils.js'
 ] 
 
 
