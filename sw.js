@@ -3,7 +3,7 @@ importScripts('assets/js/sw-utils.js')
 
 const STATIC_CACHE = 'static-v2';
 const DYNAMIC_CACHE = 'dynamic-v1';
-const INMUTABLE_CACHE = 'inmutable-v1';
+const INMUTABLE_CACHE = 'inmutable-v2';
 
 const APP_SHELL = [
     // '/',
@@ -24,11 +24,7 @@ const APP_SHELL = [
 const APP_SHELL_INMUTABLE = [
     'https://fonts.gstatic.com',
     'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i',
-    'assets/vendor/apexcharts/apexcharts.min.js',
-    'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-    'assets/vendor/chart.js/chart.umd.js',
-    'assets/vendor/echarts/echarts.min.js',
-    'assets/vendor/quill/quill.min.js'
+    'assets/js/jquery.js'
 ]
 
 self.addEventListener('install', e =>{
